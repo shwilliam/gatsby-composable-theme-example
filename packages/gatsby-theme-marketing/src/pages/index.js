@@ -12,7 +12,7 @@ export default props => {
     <div>
       <Global styles={{body: {backgroundColor: theme.colors.background}}} />
       <Header />
-      <H.h1>Shwilliam</H.h1>
+      <H.h1>Welcome</H.h1>
       <Text.p>Shopify + WordPress + MDX</Text.p>
     </div>
   )

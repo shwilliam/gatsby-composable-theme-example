@@ -4,6 +4,7 @@ require('dotenv').config({
 
 module.exports = {
   plugins: [
+    `gatsby-theme-blog-data`,
     {
       resolve: 'gatsby-source-wordpress',
       options: {

@@ -1,5 +1,5 @@
 {
-  "name": "gatsby-theme-wp-blog",
+  "name": "gatsby-theme-blog-data",
   "version": "0.1.0",
   "description": "",
   "main": "index.js",
@@ -10,18 +10,13 @@
     "type": "git",
     "url": "git+https://github.com/shwilliam/gatsby-composable-theme-example.git"
   },
-  "keywords": ["gatsby"],
+  "keywords": [
+    "gatsby"
+  ],
   "author": "William L <w-lindvall@outlook.com>",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/shwilliam/gatsby-composable-theme-example/issues"
   },
-  "homepage": "https://github.com/shwilliam/gatsby-composable-theme-example#readme",
-  "dependencies": {
-    "@theme-ui/presets": "^0.2.44",
-    "theme-ui": "^0.2.44",
-    "isolated-theme-ui": "1.0.1",
-    "gatsby-source-wordpress": "^3.1.43",
-    "gatsby-theme-blog-data": "^0.1.0"
-  }
+  "homepage": "https://github.com/shwilliam/gatsby-composable-theme-example#readme"
 }

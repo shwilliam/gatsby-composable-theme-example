@@ -1,15 +1,17 @@
 /** @jsx jsx */
-import {jsx} from 'theme-ui'
+import {useContext} from 'react'
 import {graphql} from 'gatsby'
-import Header from '../components/header'
 import Img from 'gatsby-image'
-import Client from 'shopify-buy'
+import {Global} from '@emotion/core'
 import {navigate} from '@reach/router'
+import Client from 'shopify-buy'
+import Header from '../components/header'
 import * as H from '../components/headings'
 import * as Text from '../components/text'
+import {ThemeContext, jsx} from '../context'
 
 const client = Client.buildClient({
-  domain: 'corgico-dev.myshopify.com',
+  domain: process.env.GATSBY_SHOPIFY_DOMAIN,
   storefrontAccessToken: process.env.GATSBY_SHOPIFY_ACCESS_TOKEN,
 })
 
@@ -26,8 +28,11 @@ async function buyProduct(shopifyId) {
 }
 
 export default ({data, ...props}) => {
+  const {theme} = useContext(ThemeContext)
+
   return (
     <div>
+      <Global styles={{body: {backgroundColor: theme.colors.background}}} />
       <Header />
       <ul sx={{listStyleType: 'none', margin: 0, padding: 0}}>
         {data.allShopifyProduct.nodes.map(

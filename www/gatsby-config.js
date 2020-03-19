@@ -5,20 +5,10 @@ require('dotenv').config({
 module.exports = {
   plugins: [
     `gatsby-theme-marketing`,
+    `gatsby-theme-shopify`,
     `gatsby-plugin-mdx`,
     `gatsby-plugin-sharp`,
     `gatsby-transformer-sharp`,
-    {
-      resolve: 'gatsby-source-shopify',
-      options: {
-        shopName: 'shwilliam',
-        accessToken: process.env.SHOPIFY_ACCESS_TOKEN,
-        verbose: true,
-        paginationSize: 250,
-        // defaults to ['shop', 'content'].
-        includeCollections: ['shop'],
-      },
-    },
     {
       resolve: 'gatsby-source-wordpress',
       options: {

@@ -1,0 +1,20 @@
+{
+  "name": "gatsby-composable-theme-example",
+  "version": "0.1.0",
+  "description": "",
+  "private": true,
+  "main": "index.js",
+  "workspaces": ["packages/*", "www"],
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shwilliam/gatsby-composable-theme-example.git"
+  },
+  "keywords": ["gatsby"],
+  "author": "William L <w-lindvall@outlook.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/shwilliam/gatsby-composable-theme-example/issues"
+  },
+  "homepage": "https://github.com/shwilliam/gatsby-composable-theme-example#readme"
+}

@@ -1,0 +1,25 @@
+{
+  "name": "gatsby-theme-marketing",
+  "version": "0.1.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shwilliam/gatsby-composable-theme-example.git"
+  },
+  "keywords": ["gatsby"],
+  "author": "William L <w-lindvall@outlook.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/shwilliam/gatsby-composable-theme-example/issues"
+  },
+  "homepage": "https://github.com/shwilliam/gatsby-composable-theme-example#readme",
+  "dependencies": {
+    "@theme-ui/presets": "^0.2.44",
+    "theme-ui": "^0.2.44",
+    "isolated-theme-ui": "1.0.1"
+  }
+}

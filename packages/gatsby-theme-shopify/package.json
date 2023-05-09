@@ -20,7 +20,7 @@
     "theme-ui": "^0.2.44",
     "isolated-theme-ui": "1.0.1",
     "gatsby-image": "^2.2.29",
-    "gatsby-plugin-sharp": "^2.2.32",
+    "gatsby-plugin-sharp": "^4.25.1",
     "gatsby-source-shopify": "^3.0.24",
     "gatsby-transformer-sharp": "^2.2.23",
     "shopify-buy": "^2.8.0"
